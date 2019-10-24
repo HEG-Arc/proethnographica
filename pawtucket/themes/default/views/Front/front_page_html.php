@@ -33,7 +33,7 @@
 ?>
 	<div class="row">
 		<div class="col-sm-8">
-			<H1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate, orci quis vehicula eleifend, metus elit laoreet elit.</H1>
+			<H1>Pro Ethnographica vous présente une collection de plusieurs milliers d'objets récoltés par des missionnaires et des explorateurs fribourgeois. L'association s'occupe à valoriser ces trésors oubliés et à les pérréniser.</H1>
 		</div><!--end col-sm-8-->
 		<div class="col-sm-4">
 <?php
