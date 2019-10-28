@@ -85,16 +85,26 @@
 				{{{<ifdef code="ca_objects.measurementSet.measurements">^ca_objects.measurementSet.measurements (^ca_objects.measurementSet.measurementsType)</ifdef><ifdef code="ca_objects.measurementSet.measurements,ca_objects.measurementSet.measurements"> x </ifdef><ifdef code="ca_objects.measurementSet.measurements2">^ca_objects.measurementSet.measurements2 (^ca_objects.measurementSet.measurementsType2)</ifdef>}}}
 				
 				
-				{{{<ifdef code="ca_objects.idno"><H6>Identifier:</H6>^ca_objects.idno<br/></ifdef>}}}
+				{{{<ifdef code="ca_objects.idno"><H6>Numéro :</H6>^ca_objects.idno<br/></ifdef>}}}
 				{{{<ifdef code="ca_objects.containerID"><H6>Box/series:</H6>^ca_objects.containerID<br/></ifdef>}}}				
 				
-				{{{<ifdef code="ca_objects.description">
+				{{{<ifdef code="ca_objects.physicalDescription">
 					<div class='unit'><h6>Description</h6>
-						<span class="trimText">^ca_objects.description</span>
+						<span class="trimText">^ca_objects.physicalDescription</span>
+					</div>
+				</ifdef>}}}
+{{{<ifdef code="ca_objects.fieldCollector">
+					<div class='unit'><h6>Collectionneur :</h6>
+						<span class="trimText">^ca_objects.fieldCollector</span>
 					</div>
 				</ifdef>}}}
 				
-				
+			{{{<ifdef code="ca_objects.written_place">
+					<div class='unit'><h6>Provenance :</h6>
+						<span class="trimText">^ca_objects.written_place</span>
+					</div>
+				</ifdef>}}}
+	
 				{{{<ifdef code="ca_objects.dateSet.setDisplayValue"><H6>Date:</H6>^ca_objects.dateSet.setDisplayValue<br/></ifdef>}}}
 			
 				<hr></hr>
