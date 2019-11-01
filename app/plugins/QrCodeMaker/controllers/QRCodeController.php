@@ -30,8 +30,12 @@ public function checkStatus() {
 
 public function Index(){
 
-$this->render("create_qrcode.php");
+$this->render("index2.php");
 
+}
+
+public function generate(){
+$this->render("generate_code.php");
 }
 
 }
