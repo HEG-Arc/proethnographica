@@ -18,7 +18,8 @@
 			<div class="row">
 				<div class='col-md-12 col-lg-12'>
 					<H4>{{{^ca_entities.preferred_labels.displayname}}}</H4>
-					<H6>{{{^ca_entities.type_id}}}{{{<ifdef code="ca_entities.idno">, ^ca_entities.idno</ifdef>}}}</H6>
+<H5>{{{^ca_entities.vitalDates}}} - {{{^ca_entities.personNationality}}}</H5>
+					<H6>Bio :</H6><div style="text-align:justify;">{{{^ca_entities.personBioNote}}}</div>
 				</div><!-- end col -->
 			</div><!-- end row -->
 			<div class="row">			
