@@ -19,14 +19,19 @@
 				<div class='col-md-12 col-lg-12'>
 					<H4>{{{^ca_entities.preferred_labels.displayname}}}</H4>
 <H5>{{{^ca_entities.vitalDates}}} - {{{^ca_entities.personNationality}}}</H5>
+				</div>
+			</div>
+			<!-- end row -->
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				{{{^ca_object_representations.media.small}}}
+				</div>
 
-{{{^ca_object_representations.media.small}}}</div>
-
-
-
-					<H6>Bio :</H6><div style="text-align:justify;">{{{^ca_entities.personBioNote}}}</div>
-				</div><!-- end col -->
-			</div><!-- end row -->
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="text-align:justify">
+					<H6>Bio :</H6> {{{^ca_entities.personBioNote}}}
+				</div>
+			</div>
+			<!-- end row -->
 			<div class="row">			
 				<div class='col-sm-6 col-md-6 col-lg-6'>
 					{{{<ifcount code="ca_objects" min="1" max="1"><div class='unit'><unit relativeTo="ca_objects" delimiter=" "><l>^ca_object_representations.media.large</l><div class='caption'>Related Object: <l>^ca_objects.preferred_labels.name</l></div></unit></div></ifcount>}}}
@@ -108,3 +113,4 @@
 		});
 	});
 </script>
+
