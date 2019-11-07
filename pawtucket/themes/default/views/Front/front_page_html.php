@@ -37,7 +37,7 @@
 		</div><!--end col-sm-8-->
 		<div class="col-sm-4">
 <?php
-		print $this->render("Front/gallery_set_links_html.php");
+		print $this->render("Front/people_html.php");
 ?>
 		</div> <!--end col-sm-4-->	
 	</div><!-- end row -->
