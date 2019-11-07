@@ -23,11 +23,11 @@
 			</div>
 			<!-- end row -->
 			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
 				{{{^ca_object_representations.media.small}}}
 				</div>
 
-				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="text-align:justify">
+				<div class="col-xs-12 col-sm-8 col-md-10 col-lg-10" style="text-align:justify">
 					<H6>Bio :</H6> {{{^ca_entities.personBioNote}}}
 				</div>
 			</div>
