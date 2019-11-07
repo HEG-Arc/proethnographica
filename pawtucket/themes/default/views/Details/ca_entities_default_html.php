@@ -19,6 +19,11 @@
 				<div class='col-md-12 col-lg-12'>
 					<H4>{{{^ca_entities.preferred_labels.displayname}}}</H4>
 <H5>{{{^ca_entities.vitalDates}}} - {{{^ca_entities.personNationality}}}</H5>
+
+{{{^ca_object_representations.media.small}}}</div>
+
+
+
 					<H6>Bio :</H6><div style="text-align:justify;">{{{^ca_entities.personBioNote}}}</div>
 				</div><!-- end col -->
 			</div><!-- end row -->
