@@ -28,7 +28,7 @@
 				</div>
 
 				<div class="col-xs-12 col-sm-8 col-md-10 col-lg-10" style="text-align:justify">
-					<H6>Bio :</H6> {{{^ca_entities.personBioNote}}}
+					<H6>Biography :</H6> {{{^ca_entities.personBioNote}}}
 				</div>
 			</div>
 			<!-- end row -->
@@ -55,7 +55,7 @@
 					
 				</div><!-- end col -->
 				<div class='col-sm-6 col-md-6 col-lg-6'>
-					{{{<ifdef code="ca_entities.description"><div class='unit'><H6>Biography</H6>^ca_entities.description</div></ifdef>}}}
+	
 					
 					{{{<ifcount code="ca_collections" min="1" max="1"><H6>Related collection</H6></ifcount>}}}
 					{{{<ifcount code="ca_collections" min="2"><H6>Related collections</H6></ifcount>}}}
