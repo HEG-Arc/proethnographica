@@ -34,7 +34,7 @@
 			<!-- end row -->
 			<div class="row">			
 				<div class='col-sm-6 col-md-6 col-lg-6'>
-					{{{<ifcount code="ca_objects" min="1" max="1"><div class='unit'><unit relativeTo="ca_objects" delimiter=" "><l>^ca_object_representations.media.large</l><div class='caption'>Related Object: <l>^ca_objects.preferred_labels.name</l></div></unit></div></ifcount>}}}
+
 <?php
 				# Comment and Share Tools
 				if ($vn_comments_enabled | $vn_share_enabled) {
