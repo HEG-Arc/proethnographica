@@ -28,7 +28,7 @@ class CliDumper extends AbstractDumper
     protected $maxStringWidth = 0;
     protected $styles = [
         // See http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
-        'default' => '38;5;208',
+        'default' => '0;38;5;208',
         'num' => '1;38;5;38',
         'const' => '1;38;5;208',
         'str' => '1;38;5;113',
@@ -58,7 +58,7 @@ class CliDumper extends AbstractDumper
     /**
      * {@inheritdoc}
      */
-    public function __construct($output = null, string $charset = null, int $flags = 0)
+    public function __construct($output = null, $charset = null, $flags = 0)
     {
         parent::__construct($output, $charset, $flags);
 
