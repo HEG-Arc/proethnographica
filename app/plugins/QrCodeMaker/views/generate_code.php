@@ -13,8 +13,7 @@
 
 <?php
 
-
-if(isset($_POST['generate_text']))
+if(isset($_POST['qr_text']))
 {
     $fulltext=$_POST['qr_text'];
     $numbers = explode(",", $fulltext);
