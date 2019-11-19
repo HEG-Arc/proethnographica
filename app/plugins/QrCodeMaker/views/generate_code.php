@@ -12,7 +12,7 @@
 <body>
 
 <?php
-include('phpqrcode/qrlib.php');
+
 
 if(isset($_POST['generate_text']))
 {
