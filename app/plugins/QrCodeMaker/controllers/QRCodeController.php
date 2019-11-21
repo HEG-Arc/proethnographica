@@ -35,6 +35,15 @@ $this->render("index2.php");
 }
 
 public function generate(){
+    $fulltext=$_POST['qr_text'];
+    $numbers = explode(",", $fulltext);
+
+    for ($i = 0; $i < count($numbers); $i=$i+1) {
+        $number = $numbers[$i];
+        $file_name="qr". $number .".png";
+         QRcode::png($number);}
+
+
 $this->render("generate_code.php");
 }
 
