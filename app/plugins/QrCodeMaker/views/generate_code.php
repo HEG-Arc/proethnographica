@@ -1,20 +1,34 @@
 <html>
 <head type="text/css" media="print">
     <title>Liste des QR Codes</title>
-    <style type="text/css">
-       @media print
-        {
-            .noprint {display:none;}
-        }
-    </style>
+
+<script> 
+        function printDiv() { 
+            var divContents = document.getElementById("toPrint").innerHTML; 
+            var a = window.open('', '', 'height=500, width=500'); 
+            a.document.write('<html>'); 
+            a.document.write(divContents); 
+            a.document.write('</html>'); 
+            a.document.close(); 
+            a.print(); 
+        } 
+    </script> 
+
 </head>
 
 <body>
 <?php 
-
     $fulltext=$_POST['qr_text'];
     $numbers = explode(",", $fulltext);
-    echo count(numbers) . " fiches traitées : " . $fulltext;
-    echo "<img src=\"../../../../qr$fulltext.png\">"
+    echo count($numbers) . " fiches traitées : " . $fulltext . "<br>";
+    echo "<button onClick=\"printDiv()\">Imprimer les QR Codes</button>";
+
+    echo "<div id=\"toPrint\">";
+    for ($i = 0; $i < count($numbers); $i=$i+1) {
+        $number = $numbers[$i];
+        echo "<center><h1>Numéro : $number </h1>";
+        echo "<img src=\"../../../../qr$number.png\"><hr></center> <br>";}
+    echo "</div>";
 ?>
+
 </body></html>
