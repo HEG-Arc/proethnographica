@@ -10,10 +10,11 @@
 </head>
 
 <body>
-
-    <img src="../../../../qrcodes/qr12.png">;
-
 <?php 
 
+    $fulltext=$_POST['qr_text'];
+    $numbers = explode(",", $fulltext);
+    echo count(numbers) . " fiches traitées : " . $fulltext;
+    echo "<img src=\"../../../../qr$fulltext.png\">"
 ?>
 </body></html>
