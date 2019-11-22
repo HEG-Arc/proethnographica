@@ -27,8 +27,11 @@
     for ($i = 0; $i < count($numbers); $i=$i+1) {
         $number = $numbers[$i];
         echo "<center><h1>Numéro : $number </h1>";
-        echo "<img src=\"../../../../qr$number.png\"><hr></center> <br>";}
+        echo "<img src=\"../../../../qr$number.png\"><hr></center> <br>"; 
+}
     echo "</div>";
+
+
 ?>
 
 </body></html>
