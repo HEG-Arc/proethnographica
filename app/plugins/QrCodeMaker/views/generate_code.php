@@ -11,11 +11,9 @@
 
 <body>
 
-<img src="../../../../qr23.png">	
- 
-<?php
+    <img src="../../../../qrcodes/qr12.png">;
 
-
+<?php 
 
 ?>
 </body></html>
