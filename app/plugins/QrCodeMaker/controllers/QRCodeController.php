@@ -46,4 +46,11 @@ public function generate(){
 $this->render("generate_code.php");
 }
 
+public function SelectFiles(){
+$this->render("selectfiles.php");}
+
+public function upload(){
+$this->render("upload.php");
+
+}
 }
