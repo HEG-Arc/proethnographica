@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . "/vendor/autoload.php";
 
-$target_dir = "app/plugins/QrCodeMaker/views/uploads/";
+$target_dir = "import/qr_photos/";
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 $qrCodeText = NULL;
