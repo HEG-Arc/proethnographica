@@ -39,11 +39,12 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if ($isQRCode == false){
-    $target_file = $target_dir . $qrCodeText . '_' . basename($_FILES["filesToUpload"]["name"][$i]);
+    $target_file = $target_dir . $qrCodeText . '.' . basename($_FILES["filesToUpload"]["name"][$i]);
     if (move_uploaded_file($_FILES["filesToUpload"]["tmp_name"][$i], $target_file)) {
         echo "The file ". basename( $_FILES["filesToUpload"]["name"][$i]). " has been uploaded.<br>";
     } else {
         echo "Sorry, there was an error uploading your file.";
-    }}
+    }} 
+
 }}
 ?>
