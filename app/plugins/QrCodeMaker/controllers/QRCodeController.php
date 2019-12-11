@@ -37,7 +37,18 @@ $this->render("index2.php");
 public function generate(){
     $fulltext=$_POST['qr_text'];
     $numbers = explode(",", $fulltext);
-    $target_dir = "app/plugins/QrCodeMaker/views/qrcodes/";
+    $target_dir = "app/plugins/QrCodeMaker/views/qrcodes/"; 
+   
+$files = glob($target_dir.'/*');  
+   
+// Deleting all the files in the list 
+foreach($files as $file) { 
+   
+    if(is_file($file))  
+    
+        // Delete the given file 
+        unlink($file);  
+} 
 
       for ($i = 0; $i < count($numbers); $i=$i+1) {
         $number = $numbers[$i];
