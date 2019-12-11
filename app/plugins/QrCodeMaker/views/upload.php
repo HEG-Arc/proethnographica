@@ -1,6 +1,7 @@
 <?php
 require __DIR__ . "/vendor/autoload.php";
 
+//$target_dir = __CA_APP_DIR__ . "/../import/qr_photos/";
 $target_dir = "import/qr_photos/";
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -39,8 +40,12 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if ($isQRCode == false){
-    $target_file = $target_dir . $qrCodeText . '.' . basename($_FILES["filesToUpload"]["name"][$i]);
+   $target_file = $target_dir . $qrCodeText . '_' . basename($_FILES["filesToUpload"]["name"][$i]);
+//$target_file = $qrCodeText . '_' . basename($_FILES["filesToUpload"]["name"][$i]);
     if (move_uploaded_file($_FILES["filesToUpload"]["tmp_name"][$i], $target_file)) {
+       $success = move_uploaded_file($_FILES["filesToUpload"]["tmp_name"][$i], $target_file);
+       if ($success == true){   
+       echo "true";} else { echo "false";}  
         echo "The file ". basename( $_FILES["filesToUpload"]["name"][$i]). " has been uploaded.<br>";
     } else {
         echo "Sorry, there was an error uploading your file.";
