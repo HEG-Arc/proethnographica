@@ -25,13 +25,13 @@
 		<span class=\"form-button\">
 			<i class=\"caIcon fa fa-check-circle-o \" style=\"font-size: 30px;\"></i> 
 			Imprimer
-		</span>";
+		</span></a>";
 
     echo "<div id=\"toPrint\">";
     for ($i = 0; $i < count($numbers); $i=$i+1) {
         $number = $numbers[$i];
         echo "<center><h1>Numéro : $number </h1>";
-        echo "<img src=\"../../../../app/plugins/QrCodeMaker/views/qrcodes/qr$number.png\"><hr></center> <br>";
+        echo "<img src=\"../../../../app/plugins/QrCodeMaker/views/qrcodes/qr$number.png\"><hr></center>";
 }
     echo "</div>";
 
