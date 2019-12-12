@@ -10,7 +10,7 @@
             a.document.write(divContents); 
             a.document.write('</html>'); 
             a.document.close(); 
-            a.print(); 
+           setTimeout(function(){ a.print()}, 1000) ; 
         } 
     </script> 
 
@@ -21,7 +21,11 @@
     $fulltext=$_POST['qr_text'];
     $numbers = explode(",", $fulltext);
     echo count($numbers) . " fiches traitées : " . $fulltext . "<br>";
-    echo "<button onClick=\"printDiv()\">Imprimer les QR Codes</button>";
+    echo " <a href=\"javascript:;\" onclick=\"printDiv()\" class=\"form-button 1576082343\">
+		<span class=\"form-button\">
+			<i class=\"caIcon fa fa-check-circle-o \" style=\"font-size: 30px;\"></i> 
+			Imprimer
+		</span>";
 
     echo "<div id=\"toPrint\">";
     for ($i = 0; $i < count($numbers); $i=$i+1) {
