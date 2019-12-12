@@ -18,7 +18,7 @@ if(isset($_POST["submit"])) {
     if($check !== false) {
         $uploadOk = 1;
     } else {
-        echo "File is not an image.";
+        echo "Le fichier n'est pas une image.";
         $uploadOk = 0;
     }
 }
@@ -35,16 +35,32 @@ if(isset($_POST["submit"])) {
 
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
-    echo "Sorry, your file was not uploaded.";
+    echo "Les images n'ont pas pu être préparées à l'import.";
 // if everything is ok, try to upload file
 } else {
     if ($isQRCode == false){
    $target_file = $target_dir . $qrCodeText . '.' . basename($_FILES["filesToUpload"]["name"][$i]);
     if (move_uploaded_file($_FILES["filesToUpload"]["tmp_name"][$i], $target_file)) {  
-        echo "The file ". basename( $_FILES["filesToUpload"]["name"][$i]). " has been uploaded.<br>";
+        echo "L'image ". basename( $_FILES["filesToUpload"]["name"][$i]). " est prête à être importée.<br>";
     } else {
-        echo "Sorry, there was an error uploading your file.";
+        echo "L'image n'a pas pu être préparée pour l'import.";
     }} 
 
 }}
 ?>
+
+<html>
+<body>
+<div id="wrapper"> 
+	 <a href="/../index.php/batch/MediaImport/Index" class="form-button 1576082343">
+		<h4>Accédez directement à la page d'import</h4>
+
+		<span class="form-button">
+			<i class="caIcon fa fa-check-circle-o " style="font-size: 30px;"></i> 
+			Accédez directement à la page d'import
+		</span>
+	</a>
+</div>
+</body>
+</html>
+
