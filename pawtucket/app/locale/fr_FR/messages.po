@@ -9661,7 +9661,7 @@ msgstr ""
 #: models/ca_editor_uis.php:84 models/ca_metadata_type_restrictions.php:87
 #: models/ca_objects.php:51 models/ca_search_forms.php:92
 msgid "objects"
-msgstr ""
+msgstr "Objets"
 
 #: lib/core/Plugins/InformationService/CollectiveAccess.php:59
 msgid "lots"
