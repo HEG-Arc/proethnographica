@@ -45,3 +45,12 @@ intéressés.
 <p align="justify">Rejoignez l'association Pro Ethnographica ! Vous pouvez demander (...)</p>
 		</div>
 	</div>
+
+<div class="row">
+		<div class="col-sm-11 col-sm-offset-1">
+			<h2>Publications</h2>
+<p align="justify">Nos publications sont disponibles à l'achat (...)</p>
+
+</div>
+	</div>
+
