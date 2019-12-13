@@ -8,7 +8,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-8">
+		<div class="col-sm-5 col-sm-offset-1">
 			<h3>À propos de Pro Ethnographica</h3>
 
 			<h2>Un précieux trésor ethnographique</h2>
@@ -39,9 +39,9 @@ des 50 dernières années et les rendre accessibles aux
 intéressés.
 </p>
 		</div>
-		<div class="col-sm-3 col-sm-offset-1">
-			<h6>&nbsp;</h6><address>Archives<br>			100 Second Avenue, 2nd floor<br>			New York, NY 10010</address>
-		
-			<address>Jennifer Smith, Archivist<br>			<span class="info">Phone</span> — 212 222.2222<br>			<span class="info">Fax</span> — 212 222.2223<br>			<span class="info">Email</span> — <a href="#">email@archive.edu</a></address>
+		<div class="col-sm-5 col-sm-offset-1">
+			<h2>Adhérez à l'association</h2>
+
+<p align="justify">Rejoignez l'association Pro Ethnographica ! Vous pouvez demander (...)</p>
 		</div>
 	</div>
