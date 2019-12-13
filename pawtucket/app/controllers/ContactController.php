@@ -47,6 +47,11 @@
  		public function Form() {
 			$this->render("Contact/form_html.php");
  		}
+                # -------------------------------------------------------
+                public function Listing() {
+                        $this->render("Contact/listing_html.php");
+}
+
  		# ------------------------------------------------------
  		public function Send() {
  		    caValidateCSRFToken($this->request);
