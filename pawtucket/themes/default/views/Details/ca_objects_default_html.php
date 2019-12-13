@@ -33,6 +33,9 @@
 	$vn_share_enabled = 	$this->getVar("shareEnabled");
 	$vn_pdf_enabled = 		$this->getVar("pdfEnabled");
 	$vn_id =				$t_object->get('ca_objects.object_id');
+
+	$email_subject =                      $t_object->get('ca_objects.idno');
+        $to =					"gueniat.adeline@gmail.com";
 ?>
 <div class="row">
 	<div class='col-xs-12 navTop'><!--- only shown at small screen size -->
@@ -64,8 +67,13 @@
 						<div id='detailComments'><?php print $this->getVar("itemComments");?></div><!-- end itemComments -->
 <?php				
 
-					} else { 
-						print '<div class="detailTool"><a href="mailto:gueniat.adeline@gmail.com"><span class="glyphicon glyphicon-comment"></span>Send feedback</a></div>';
+					} else {
+
+
+						 print '<div class="detailTool">
+							<a href="mailto:'.$to.'?subject=Objet numéro '.urlencode($email_subject).'">
+							<span class="glyphicon glyphicon-comment"></span>Send feedback
+							</a></div>';	
 					}
 
 					if ($vn_share_enabled) {
