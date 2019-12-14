@@ -1,43 +1,16 @@
+ 	<div class="row" style="margin-top:2%">
+		<div class="col-sm-10 col-sm-offset-1">
+
+			<H1 style="font-size:50px;font-weight:bold;">Bienvenue sur la vitrine de Pro Ethnographica</H1>
+
+<H2>C'est en 1942 que le P. Wilhelm Schmidt, premier professeur d’ethnologie à l’Université de Fribourg commença à rassembler une importante collection ethnographique issue de diverses sources. Elle comprend plus de 2800 pièces de l’Amérique du Nord, de l’Inde, de la Papouasie Nouvelle-Guinée, de l’Afrique et de l’Australie. Suite à un vol, la collection exposée jusque-là dans les vitrines de la Faculté des Lettres est restée confinée dans les sous-sols de l’Université. Il fallait la sauver.</H2>
+<H4>L'association Pro Ethnographica s'est formée dans le but de valoriser et pérénniser ces trésors oubliées. Elle vous présente aujourd'hui cette collection de plusieurs milliers d'objets récoltés par des missionnaires et des explorateurs fribourgeois, dont elle s'occupe avec grand soin. </H4>
+		</div><!--end col-sm-10-->
+	</div><!--end row-->
+	<div class="row" style="margin-top:5%">
+		<div class="col-sm-12">
 <?php
-/** ---------------------------------------------------------------------
- * themes/default/Front/front_page_html : Front page of site 
- * ----------------------------------------------------------------------
- * CollectiveAccess
- * Open-source collections management software
- * ----------------------------------------------------------------------
- *
- * Software by Whirl-i-Gig (http://www.whirl-i-gig.com)
- * Copyright 2013 Whirl-i-Gig
- *
- * For more information visit http://www.CollectiveAccess.org
- *
- * This program is free software; you may redistribute it and/or modify it under
- * the terms of the provided license as published by Whirl-i-Gig
- *
- * CollectiveAccess is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTIES whatsoever, including any implied warranty of 
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
- *
- * This source code is free and modifiable under the terms of 
- * GNU General Public License. (http://www.gnu.org/copyleft/gpl.html). See
- * the "license.txt" file for details, or visit the CollectiveAccess web site at
- * http://www.CollectiveAccess.org
- *
- * @package CollectiveAccess
- * @subpackage Core
- * @license http://www.gnu.org/copyleft/gpl.html GNU Public License version 3
- *
- * ----------------------------------------------------------------------
- */
-		print $this->render("Front/featured_set_slideshow_html.php");
+ print $this->render("Front/featured_set_slideshow_html.php");
 ?>
-	<div class="row">
-		<div class="col-sm-8">
-			<H1>Pro Ethnographica vous présente une collection de plusieurs milliers d'objets récoltés par des missionnaires et des explorateurs fribourgeois. L'association s'occupe à valoriser ces trésors oubliés et à les pérréniser. Découvrez-en plus sur Pro Ethnographica et ces milliers d'objets !</H1>
-		</div><!--end col-sm-8-->
-		<div class="col-sm-4">
-<?php
-		print $this->render("Front/people_html.php");
-?>
-		</div> <!--end col-sm-4-->	
+		</div> <!--end col-sm-12-->	
 	</div><!-- end row -->
