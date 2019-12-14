@@ -30,17 +30,68 @@ Ce bref résumé veut susciter l’intérêt pour notre travail. Le but est de r
 		<div class="col-sm-4 col-sm-offset-1">
 			<h2>Nos publications</h2>
 
-<p><h3>Ethnographie und Mission, Georg Höltker und Neuguinea.</h3>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <h3>Ethnographie und Mission, Georg Höltker und Neuguinea</h3>
+        </button>
+    </div>
 
-Herausgeber Prof. Dr. Francois Rüegg mit Studia Instituti Missiologici SVD und Franz Schmitt Verlag, ISSN 0562-2816, 16cm x 23,5 cm, 152 Seiten. Text in Deutsch und teilweise in Französisch. Autoren: François Ruegg, Harald Grauer, Rebecca Loder-Neuhold, Milène C. Rossi, Beatrice Voirol, Jerzy Skrabania. <br /><br />
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+	<p>Herausgeber Prof. Dr. Francois Rüegg mit Studia Instituti Missiologici SVD und Franz Schmitt Verlag, ISSN 0562-2816, 16cm x 23,5 cm, 152 Seiten. Text in Deutsch und teilweise in Französisch</p>
+	<p>Von <b>François Ruegg, Harald Grauer, Rebecca Loder-Neuhold, Milène C. Rossi, Beatrice Voirol, Jerzy Skrabania.  </b></p>
 
-Ein Beitrag zur Frage von Ethnographie und Mission. Der Steyler Missionar und Ethnologieprofessor Georg Höltker, SVD (1895-1976) war ein unermüdlicher Forscher und methodischer Sammler. Er hinterliess eine sorgfältig geordnete Kollektion und Photographien, vor allem aus Neu Guinea. Diese sind in Museen in Basel, Neuchâtel, Wien und Bonn sowie über 600 Teile bei Pro Ethnographica in Bulle, Kanton Freiburg zu finden.<br />
-Die spannenden Beiträge leuchten in die Sammlungen in Wien, erklären die Bedeutung von Kampf-und Zeremoniekeulen, lassen sich aus über die Sammlungen bei Sankt Augustin in Bonn und über Höltkers Schriftverkehr mit dem Museum der Kulturen Basel. Publiziert mit Hilfe der Stiftung Le Cédre. <br />
+	Ein Beitrag zur Frage von Ethnographie und Mission. Der Steyler Missionar und Ethnologieprofessor Georg Höltker, SVD (1895-1976) war ein unermüdlicher Forscher und methodischer Sammler. Er hinterliess eine sorgfältig geordnete Kollektion und Photographien, vor allem aus Neu Guinea. Diese sind in Museen in Basel, Neuchâtel, Wien und Bonn sowie über 600 Teile bei Pro Ethnographica in Bulle, Kanton Freiburg zu finden.<br /><br />
 
+	Die spannenden Beiträge leuchten in die Sammlungen in Wien, erklären die Bedeutung von Kampf-und Zeremoniekeulen, lassen sich aus über die Sammlungen bei Sankt Augustin in Bonn und über Höltkers Schriftverkehr mit dem Museum der Kulturen Basel. Publiziert mit Hilfe der Stiftung Le Cédre.
 
-<b>Preis: CHF. 30.00 plus Transportkosten</b>
-</p>
+	<p><h4>Preis: CHF. 30.00 plus Transportkosten</h4></p>
 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h3>Five Years in America, the Menominee Collection of Antoine Marie Gachet</h3>
+        </button>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+	<p>Pro Ethnographica Fribourg Suisse, UKF Publishers, Swiss Editor Prof. Dr. François Ruegg, ISBN 978-2-9701063-1-9, Format 22cm by 28 cm,100 pages, many splendid colour images.</p>
+	<p>By <b>Dr. Silvia S. Kasprycki, with a contribution by Anton Rotzetter and a preface by the Fribourg State Councillor Marie Garnier.</b></p>
+
+	A truly wonderful book about an extremely rare collection by the Fribourg Missionary Antoine Marie Gachet, (1822 – 1891). Arriving in 1857 in the USA, he spent 3 years (1859-1862) with the Menominee’s of Wisconsin. He engaged in missionary work and at the same time, driven by his keen mind, engaged in the cultural, linguistical and social activities of the Menominee tribe. This resulted in a carefully written diary, many wonderfully precise drawings, a modest collection of everyday items, and in his deep understanding of that peaceful tribe. As a background to his activities we note that the American civil war started in 1861, accelerating the industrial revolution in the United Stated and putting into peril tribes like the Menominee which had no experience or comprehension of war at that level of ferocity.<br /><br />
+
+	Dr. Kasprycki writes with deep understanding about Gachet and concentrates on the period of his five years in the United States of America, particularly about the final three years living with the Menominee. Pro Ethnographica oversees 30 items from Antoine Marie Gachet’s collection. The book shows them all, beautifully photographed and brilliantly described. This book has been published with the help of the foundation Le Cédre.
+
+	<p><h4>Price: CHF 40.00 (plus cost of postage)</h4></p>
+	</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h3>Des collections sortent de l’oubli, un trésor, une histoire.  </h3>
+        </button>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+       <p>Sous la direction du prof. Dr. François Rüegg, Pro Ethnographica, ISBN 978-2970106326. Format A5,130 pages</p>
+
+	<p>Par <b>le Conseiller d'État Georges Godel, Prof. Dr. François Ruegg, Prof. Dr. C. Giordano, Professor Olivier Perru, Prof. François Walter, Monsieur François Miche, Monsieur Nicolas Mabillard.</b></p>
+
+	Ce livre parle de la découverte et acquisition de la riche collection ethnographique détenue par l’Université de Fribourg. Effectivement, après été entreposées dans les caves de l’Université pendant 60 ans, l’association Pro Ethnographica a acquis les collections pour sauvegarder cette valeur culturelle, historique et unique.<br /><br />
+
+	Le livre de 130 pages parle de braves missionnaires et hommes de recherche, décrit les vicissitudes de l’anthropologie, évoque la problématique de numérisation & d’inventaire, pour finalement, passer en revue les activités de Louis Egger, le « Roi de Bramaya » ce Fribourgeois au service de la France, qui géra un vaste territoire de la colonie du Sénégal, « Les Rivières de Sud » à la fin du 19° Siècle et qui ramena une magnifique collection à Fribourg. Publié avec l’aide de la fondation Le Cèdre.
+
+	<p><h4>Prix : CHF 20.00 (coûts d’expédition en sus)</h4></p>
+	</div>
+    </div>
+  </div>
+</div>
 		</div>
 	</div>
 
