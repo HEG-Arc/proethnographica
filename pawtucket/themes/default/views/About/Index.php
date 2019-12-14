@@ -27,10 +27,20 @@ Ce bref résumé veut susciter l’intérêt pour notre travail. Le but est de r
 
 </p>
 		</div>
-		<div class="col-sm-5 col-sm-offset-1">
+		<div class="col-sm-4 col-sm-offset-1">
 			<h2>Nos publications</h2>
 
-<p align="justify">Nos publications...</p>
+<p><h3>Ethnographie und Mission, Georg Höltker und Neuguinea.</h3>
+
+Herausgeber Prof. Dr. Francois Rüegg mit Studia Instituti Missiologici SVD und Franz Schmitt Verlag, ISSN 0562-2816, 16cm x 23,5 cm, 152 Seiten. Text in Deutsch und teilweise in Französisch. Autoren: François Ruegg, Harald Grauer, Rebecca Loder-Neuhold, Milène C. Rossi, Beatrice Voirol, Jerzy Skrabania. <br /><br />
+
+Ein Beitrag zur Frage von Ethnographie und Mission. Der Steyler Missionar und Ethnologieprofessor Georg Höltker, SVD (1895-1976) war ein unermüdlicher Forscher und methodischer Sammler. Er hinterliess eine sorgfältig geordnete Kollektion und Photographien, vor allem aus Neu Guinea. Diese sind in Museen in Basel, Neuchâtel, Wien und Bonn sowie über 600 Teile bei Pro Ethnographica in Bulle, Kanton Freiburg zu finden.<br />
+Die spannenden Beiträge leuchten in die Sammlungen in Wien, erklären die Bedeutung von Kampf-und Zeremoniekeulen, lassen sich aus über die Sammlungen bei Sankt Augustin in Bonn und über Höltkers Schriftverkehr mit dem Museum der Kulturen Basel. Publiziert mit Hilfe der Stiftung Le Cédre. <br />
+
+
+<b>Preis: CHF. 30.00 plus Transportkosten</b>
+</p>
+
 		</div>
 	</div>
 
