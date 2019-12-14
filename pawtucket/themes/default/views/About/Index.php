@@ -42,7 +42,7 @@ Pro Ethnographica a repris les collections ethnographiques de l’Université de
   <div class="card">
     <div class="card-header" id="headingOne">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h3>Ethnographie und Mission, Georg Höltker und Neuguinea</h3>
+  	  <h3><span class="glyphicon glyphicon-book" style="padding-right:10px"></span> Ethnographie und Mission, Georg Höltker und Neuguinea</h3>
         </button>
     </div>
 
@@ -63,7 +63,7 @@ Pro Ethnographica a repris les collections ethnographiques de l’Université de
   <div class="card">
     <div class="card-header" id="headingTwo">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <h3>Five Years in America, the Menominee Collection of Antoine Marie Gachet</h3>
+          <h3><span class="glyphicon glyphicon-book" style="padding-right:10px"></span> Five Years in America, the Menominee Collection of Antoine Marie Gachet</h3>
         </button>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -82,7 +82,7 @@ Pro Ethnographica a repris les collections ethnographiques de l’Université de
   <div class="card">
     <div class="card-header" id="headingThree">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <h3>Des collections sortent de l’oubli, un trésor, une histoire.  </h3>
+          <h3><span class="glyphicon glyphicon-book" style="padding-right:10px"></span> Des collections sortent de l’oubli, un trésor, une histoire.  </h3>
         </button>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
