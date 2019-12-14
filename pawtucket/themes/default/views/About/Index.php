@@ -4,7 +4,7 @@
 
 	<div class="row">
 		<div class="col-sm-12">
-			<H1><?php print _t("À propos de Pro Ethnographica"); ?></H1>i
+			<H1><?php print _t("À propos de Pro Ethnographica"); ?></H1>
 		</div>
 	</div>
 	<div class="row">
@@ -27,9 +27,10 @@ Ce bref résumé veut susciter l’intérêt pour notre travail. Le but est de r
 
 </p>
 		</div>
-		<div class="col-sm-4 col-sm-offset-1">
-			<h2>Nos publications</h2>
 
+<div class="col-sm-4 col-sm-offset-1">
+	<h2>Nos publications</h2>
+Pro Ethnographica a repris les collections ethnographiques de l’Université de Fribourg. Parmi ses publications trois ouvrages sont déjà disponibles. Cliquez sur le titre de l'ouvrage qui vous intéresse pour afficher davantage d'informations.
 <div id="accordion">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -92,6 +93,11 @@ Ce bref résumé veut susciter l’intérêt pour notre travail. Le but est de r
     </div>
   </div>
 </div>
+
+<p><a href="mailto:hans.werhonig@weig.ch?subject=Achat de publication"> <span class="glyphicon glyphicon-shopping-cart"></span> Pour commander l'une de nos publications, envoyez-nous un mail</a> ou adressez un courrier à l'association Pro Ethnographica à l'adresse suivante : </p>
+<p align="center">PRO ETHNOGRAPHICA,  c/o Hans Werhonig,  Planche Supérieure 48,  CH-1700 Freiburg/Fribourg, Schweiz</p>
+
+
 		</div>
 	</div>
 
