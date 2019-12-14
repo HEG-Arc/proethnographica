@@ -26,6 +26,13 @@ La collection s’est constituée entre 1845 et 1980 grâce au travail des Missi
 Ce bref résumé veut susciter l’intérêt pour notre travail. Le but est de restituer à la collection toute sa splendeur passée et sa valeur réelle actuelle. Une fois l’inventaire complet effectué et rendu accessible par voie électronique, la prochaine étape sera de faire connaître cette collection dans le monde grâce à des publications. Rejoignez-nous dans cette aventure ethnographique, devenez membre, faites un don ou une donation. Nous vous en remercions vivement !
 
 </p>
+
+ <br />
+
+<h2>Adhérez à l'association</h2>
+<p align="justify">Rejoignez vous aussi l'aventure ! Vous pouvez adresser une demande d'adhésion à l'association à Monsieur Hans Werhonig, vice-président.<br />
+<a href="mailto:hans.werhonig@weig.ch?subject=Demande d'adhésion"><span class="glyphicon glyphicon-comment"></span> Envoyer ma demande d'adhésion</a>
+
 		</div>
 
 <div class="col-sm-4 col-sm-offset-1">
@@ -95,19 +102,10 @@ Pro Ethnographica a repris les collections ethnographiques de l’Université de
 </div>
 
 <p><a href="mailto:hans.werhonig@weig.ch?subject=Achat de publication"> <span class="glyphicon glyphicon-shopping-cart"></span> Pour commander l'une de nos publications, envoyez-nous un mail</a> ou adressez un courrier à l'association Pro Ethnographica à l'adresse suivante : </p>
-<p align="center">PRO ETHNOGRAPHICA,  c/o Hans Werhonig,  Planche Supérieure 48,  CH-1700 Freiburg/Fribourg, Schweiz</p>
+<p align="center"><b>PRO ETHNOGRAPHICA,  c/o Hans Werhonig,  Planche Supérieure 48,  CH-1700 Freiburg/Fribourg, Schweiz</b></p>
 
 
 		</div>
 	</div>
 
-<div class="row">
-		<div class="col-sm-11 col-sm-offset-1">
-			<h2>Adhérez à l'association</h2>
-<p align="justify">Rejoignez vous aussi l'aventure ! Vous pouvez adresser une demande d'adhésion à l'association à Monsieur Hans Werhonig, vice-président.<br />
-<a href="mailto:hans.werhonig@weig.ch?subject=Demande d'adhésion"><span class="glyphicon glyphicon-comment"></span> Envoyer ma demande d'adhésion</a>
- </p>
-
-</div>
-	</div>
 
