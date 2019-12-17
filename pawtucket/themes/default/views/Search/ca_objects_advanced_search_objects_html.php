@@ -1,10 +1,10 @@
 
 <div class="row">
 	<div class="col-sm-8 " style='border-right:1px solid #ddd;'>
-		<h1>Objects Advanced Search</h1>
+		<h1>Recherche avancée d'objets</h1>
 
 <?php			
-print "<p>Enter your search terms in the fields below.</p>";
+print "<p>Vous pouvez procéder à une recherche avancée sur les termes que vous saisirez dans les champs suivants.</p>";
 ?>
 
 {{{form}}}
@@ -12,52 +12,45 @@ print "<p>Enter your search terms in the fields below.</p>";
 <div class='advancedContainer'>
 	<div class='row'>
 		<div class="advancedSearchField col-sm-12">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Search across all fields in the database.">Keyword</span>
+			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Recherchez n'importe quel terme dans la base de données.">Mot clé</span>
 			{{{_fulltext%width=200px&height=1}}}
 		</div>			
 	</div>		
 	<div class='row'>
 		<div class="advancedSearchField col-sm-12">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Limit your search to Object Titles only.">Title</span>
+			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Limitez votre recherche aux intitulés d'objets.">Intitulé d'objet</span>
 			{{{ca_objects.preferred_labels.name%width=220px}}}
 		</div>
 	</div>
-	<div class='row'>
-		<div class="advancedSearchField col-sm-6">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Search object identifiers.">Accession number</span>
-			{{{ca_objects.idno%width=210px}}}
-		</div>
-		<div class="advancedSearchField col-sm-6">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Limit your search to object types.">Type</span>
-			{{{ca_objects.type_id%height=30px}}}
+<div class='row'>
+
+		<div class="advancedSearchField col-sm-12">
+			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Recherchez des objets amenés par un missionnaire ou explorateur">Collectionneur</span>
+			{{{ca_objects.fieldCollector%width=220px}}}
 		</div>
 	</div>
 	<div class='row'>
 		<div class="advancedSearchField col-sm-12">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Search records of a particular date or date range.">Date range <i>(e.g. 1970-1979)</i></span>
-			{{{ca_objects.dates.dates_value%width=200px&height=40px&useDatePicker=0}}}
-		</div>
-	</div>
-	<div class='row'>
-		<div class="advancedSearchField col-sm-12">
-			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Search records within a particular collection.">Collection </span>
-			{{{ca_collections.preferred_labels%restrictToTypes=collection%width=200px&height=40px}}}
+			<span class='formLabel' data-toggle="popover" data-trigger="hover" data-content="Recherchez des objets en provenance d'un certain endroit.">Provenance </span>
+			{{{ca_objects.written_place%width=200px}}}
 		</div>
 	</div>
 	<br style="clear: both;"/>
 	<div class='advancedFormSubmit'>
-		<span class='btn btn-default'>{{{reset%label=Reset}}}</span>
-		<span class='btn btn-default' style="margin-left: 20px;">{{{submit%label=Search}}}</span>
+		<span class='btn btn-default'>{{{reset%label=Annuler}}}</span>
+		<span class='btn btn-default' style="margin-left: 20px;">{{{submit%label=Rechercher}}}</span>
 	</div>
 </div>	
 
 {{{/form}}}
 
 	</div>
+
 	<div class="col-sm-4" >
-		<h1>Helpful Links</h1>
-		<p>Include some helpful info for your users here.</p>
+		<h1>Recherche simple</h1>
+		<p>Vous pouvez aussi procéder à une recherche simple en saisissant un mot clé dans la barre de recherche en haut à droite.</p>
 	</div><!-- end col -->
+
 </div><!-- end row -->
 
 <script>
